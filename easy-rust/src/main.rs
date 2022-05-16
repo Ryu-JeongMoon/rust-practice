@@ -6,17 +6,25 @@ mod rust_005;
 mod rust_006;
 mod rust_007;
 mod rust_008;
+mod rust_009;
+mod rust_010;
+mod rust_011;
+mod rust_012;
 
 fn main() {
   println!("===================================");
-  rust_001::print_hello_world();
-  rust_002::comments();
-  rust_003::print_integer_types();
-  rust_004::print_chars();
-  rust_005::print_length_and_chars_count();
-  rust_006::print_type_inference();
-  rust_007::print_println();
-  rust_008::print_println2();
+  // rust_001::print_hello_world();
+  // rust_002::comments();
+  // rust_003::print_integer_types();
+  // rust_004::print_chars();
+  // rust_005::print_length_and_chars_count();
+  // rust_006::print_type_inference();
+  // rust_007::print_println();
+  // rust_008::print_println2();
+  // rust_009::print_tuple();
+  // rust_010::print_number();
+  // rust_011::print_shadowing_in_scopes();
+  rust_012::print_reference();
   println!("===================================");
 }
 
