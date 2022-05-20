@@ -10,6 +10,10 @@ mod rust_009;
 mod rust_010;
 mod rust_011;
 mod rust_012;
+mod rust_013;
+mod rust_014;
+mod rust_015;
+mod rust_016;
 
 fn main() {
   println!("===================================");
@@ -24,7 +28,11 @@ fn main() {
   // rust_009::print_tuple();
   // rust_010::print_number();
   // rust_011::print_shadowing_in_scopes();
-  rust_012::print_reference();
+  // rust_012::print_reference();
+  // rust_013::print_with_tab();
+  // rust_014::print_strings();
+  // rust_015::print_string_type();
+  rust_016::print_const();
   println!("===================================");
 }
 
