@@ -14,6 +14,10 @@ mod rust_013;
 mod rust_014;
 mod rust_015;
 mod rust_016;
+mod rust_017;
+mod rust_018;
+mod rust_019;
+mod rust_020;
 
 fn main() {
   println!("===================================");
@@ -32,7 +36,11 @@ fn main() {
   // rust_013::print_with_tab();
   // rust_014::print_strings();
   // rust_015::print_string_type();
-  rust_016::print_const();
+  // rust_016::print_const();
+  // rust_017::print_ownership();
+  // rust_018::print_mut_reference();
+  // rust_019::print_unique_reference();
+  rust_020::print_references_in_functions();
   println!("===================================");
 }
 
