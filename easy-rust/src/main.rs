@@ -1,13 +1,18 @@
-mod rust_022;
-mod rust_023;
-mod rust_024;
+mod rust_025;
+mod rust_026;
+mod rust_027;
+mod rust_028;
 
 fn main() {
   println!("===================================");
   // rust_022::print_copy_and_clone();
   // rust_023::print_uninitialized_variables();
   // rust_023::print_loop();
-  rust_024::print_collections();
+  // rust_024::print_collections();
+  // rust_025::print_slices();
+  // rust_026::print_vec();
+  // rust_027::print_from_into();
+  rust_028::print_tuples();
   println!("===================================");
 }
 
