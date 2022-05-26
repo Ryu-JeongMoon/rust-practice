@@ -1,14 +1,16 @@
-mod rust_029;
-mod rust_030;
-mod rust_031;
-mod rust_032;
+extern crate core;
+
+mod rust_033;
+mod rust_034;
+mod rust_035;
+mod rust_036;
 
 fn main() {
   println!("===================================");
-  // rust_029::print_control_flow();
-  // rust_030::print_match_statements();
-  // rust_031::print_complicated_match_statements();
-  rust_032::print_struct();
+  // rust_033::print_size_of_struct();
+  // rust_034::print_enums();
+  // rust_035::print_enums();
+  rust_036::print_stars();
   println!("===================================");
 }
 
