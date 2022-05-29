@@ -1,7 +1,7 @@
 #[derive(Debug)]
 pub struct Animal {
-  age: u8,
-  animal_type: AnimalType,
+  pub age: u8,
+  pub animal_type: AnimalType,
 }
 
 #[derive(Debug)]

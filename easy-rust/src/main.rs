@@ -1,16 +1,19 @@
 extern crate core;
 
-mod rust_037;
-mod rust_038;
 mod rust_039;
 mod rust_040;
+mod rust_041;
+mod rust_042;
+mod rust_043;
+mod rust_044;
 
 fn main() {
   println!("===================================");
-  // rust_037::print_not_rust_style_loop();
-  // rust_038::print_rust_style_loop();
-  // rust_039::print_impl();
-  rust_040::print_more_impl();
+  // rust_040::print_more_impl();
+  // rust_041::print_enum_impl_blocks();
+  // rust_042::print_destructuring();
+  // rust_043::print_dot_operator();
+  rust_044::print_generics();
   println!("===================================");
 }
 
