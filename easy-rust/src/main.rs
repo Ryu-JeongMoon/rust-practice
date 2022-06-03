@@ -1,16 +1,10 @@
 extern crate core;
 
-mod rust_049;
-mod rust_050;
-mod rust_051;
-mod rust_052;
+mod rust_053;
 
 fn main() {
   println!("===================================");
-  // rust_049::print_result();
-  // rust_050::print_if_let_and_while_let();
-  // rust_051::print_map();
-  rust_052::print_hash_map();
+  rust_053::print_hashmap();
   println!("===================================");
 }
 
