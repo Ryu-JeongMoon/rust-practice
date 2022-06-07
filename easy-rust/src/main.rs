@@ -1,16 +1,16 @@
 extern crate core;
 
-mod rust_053;
-mod rust_054;
-mod rust_055;
-mod rust_056;
+mod rust_057;
+mod rust_058;
+mod rust_059;
+mod rust_060;
 
 fn main() {
   println!("===================================");
-  // rust_053::print_hashmap();
-  // rust_054::print_collections();
-  // rust_055::print_binary_heap();
-  rust_056::print_vec_deque();
+  // rust_057::print_question_mark_operator();
+  // rust_058::print_formatting_str();
+  // rust_059::print_trait();
+  rust_060::print_trait();
   println!("===================================");
 }
 
