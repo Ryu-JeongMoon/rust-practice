@@ -1,16 +1,16 @@
 extern crate core;
 
-mod rust_061;
-mod rust_062;
-mod rust_063;
-mod rust_064;
+mod rust_065;
+mod rust_066;
+mod rust_067;
+mod rust_068;
 
 fn main() {
   println!("===================================");
-  // rust_061::print_trait();
-  // rust_062::print_another_trait();
-  // rust_063::print_trait_as_bounds();
-  rust_064::print_implementing_from();
+  // rust_065::print_blanket_trait();
+  // rust_066::print_blanket_trait();
+  // rust_067::print_as_ref();
+  rust_068::print_method_chaining();
   println!("===================================");
 }
 
