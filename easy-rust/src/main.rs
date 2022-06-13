@@ -1,16 +1,16 @@
 extern crate core;
 
-mod rust_069;
-mod rust_070;
-mod rust_071;
-mod rust_072;
+mod rust_073;
+mod rust_074;
+mod rust_075;
+mod rust_076;
 
 fn main() {
   println!("===================================");
-  // rust_069::print_iterator();
-  // rust_070::print_iterators_assert_eq();
-  // rust_071::print_impl_iterator();
-  rust_072::print_closure();
+  // rust_073::print_zero_cost_abstraction();
+  // rust_074::print_map_and_foreach();
+  // rust_075::print_zip();
+  rust_076::print_char_method();
   println!("===================================");
 }
 
