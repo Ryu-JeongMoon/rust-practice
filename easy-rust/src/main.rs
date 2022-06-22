@@ -1,16 +1,16 @@
 extern crate core;
 
-mod rust_081;
-mod rust_082;
-mod rust_083;
-mod rust_084;
+mod rust_085;
+mod rust_086;
+mod rust_087;
+mod rust_088;
 
 fn main() {
   println!("===================================");
-  // rust_081::print_any_all();
-  // rust_082::print_reverse_vec();
-  // rust_083::print_find_position_cycle();
-  rust_084::print_skip_fold();
+  // rust_085::print_folds();
+  // rust_086::print_chunks_windows();
+  // rust_087::print_match_indices_peekable();
+  rust_088::print_debug_macro();
   println!("===================================");
 }
 
