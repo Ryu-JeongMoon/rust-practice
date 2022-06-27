@@ -1,16 +1,16 @@
 extern crate core;
 
-mod rust_085;
-mod rust_086;
-mod rust_087;
-mod rust_088;
+mod rust_089;
+mod rust_090;
+mod rust_091;
+mod rust_092;
 
 fn main() {
   println!("===================================");
-  // rust_085::print_folds();
-  // rust_086::print_chunks_windows();
-  // rust_087::print_match_indices_peekable();
-  rust_088::print_debug_macro();
+  // rust_089::print_inspect();
+  // rust_090::print_lifetime();
+  // rust_091::print_static_lifetime();
+  rust_092::print_dbg();
   println!("===================================");
 }
 
