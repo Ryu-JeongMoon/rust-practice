@@ -1,16 +1,16 @@
 extern crate core;
 
-mod rust_089;
-mod rust_090;
-mod rust_091;
-mod rust_092;
+mod rust_093;
+mod rust_094;
+mod rust_095;
+mod rust_096;
 
 fn main() {
   println!("===================================");
-  // rust_089::print_inspect();
-  // rust_090::print_lifetime();
-  // rust_091::print_static_lifetime();
-  rust_092::print_dbg();
+  // rust_093::print_mutability_and_cells();
+  // rust_094::print_refcell();
+  // rust_095::print_refcell();
+  rust_096::print_interior_mutability();
   println!("===================================");
 }
 
